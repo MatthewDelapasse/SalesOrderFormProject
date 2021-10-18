@@ -79,9 +79,11 @@ namespace SalesOrderFormProject
             this.grpOrder.Controls.Add(this.label2);
             this.grpOrder.Controls.Add(this.label1);
             this.grpOrder.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.grpOrder.Location = new System.Drawing.Point(18, 25);
+            this.grpOrder.Location = new System.Drawing.Point(13, 15);
+            this.grpOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpOrder.Name = "grpOrder";
-            this.grpOrder.Size = new System.Drawing.Size(726, 155);
+            this.grpOrder.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpOrder.Size = new System.Drawing.Size(508, 93);
             this.grpOrder.TabIndex = 0;
             this.grpOrder.TabStop = false;
             this.grpOrder.Text = "Order";
@@ -90,26 +92,29 @@ namespace SalesOrderFormProject
             // 
             this.lblDate.AutoSize = true;
             this.lblDate.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblDate.Location = new System.Drawing.Point(154, 98);
+            this.lblDate.Location = new System.Drawing.Point(108, 59);
+            this.lblDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(0, 28);
+            this.lblDate.Size = new System.Drawing.Size(0, 19);
             this.lblDate.TabIndex = 5;
             // 
             // lblOrderID
             // 
             this.lblOrderID.AutoSize = true;
             this.lblOrderID.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblOrderID.Location = new System.Drawing.Point(160, 44);
+            this.lblOrderID.Location = new System.Drawing.Point(112, 26);
+            this.lblOrderID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblOrderID.Name = "lblOrderID";
-            this.lblOrderID.Size = new System.Drawing.Size(0, 28);
+            this.lblOrderID.Size = new System.Drawing.Size(0, 19);
             this.lblOrderID.TabIndex = 4;
             // 
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnExit.Location = new System.Drawing.Point(608, 36);
+            this.btnExit.Location = new System.Drawing.Point(426, 22);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(112, 44);
+            this.btnExit.Size = new System.Drawing.Size(78, 26);
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -118,9 +123,10 @@ namespace SalesOrderFormProject
             // btnSubmitOrder
             // 
             this.btnSubmitOrder.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSubmitOrder.Location = new System.Drawing.Point(472, 36);
+            this.btnSubmitOrder.Location = new System.Drawing.Point(330, 22);
+            this.btnSubmitOrder.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSubmitOrder.Name = "btnSubmitOrder";
-            this.btnSubmitOrder.Size = new System.Drawing.Size(112, 44);
+            this.btnSubmitOrder.Size = new System.Drawing.Size(78, 26);
             this.btnSubmitOrder.TabIndex = 2;
             this.btnSubmitOrder.Text = "Submit";
             this.btnSubmitOrder.UseVisualStyleBackColor = true;
@@ -130,9 +136,10 @@ namespace SalesOrderFormProject
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(14, 98);
+            this.label2.Location = new System.Drawing.Point(10, 59);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 28);
+            this.label2.Size = new System.Drawing.Size(78, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Order Date";
             // 
@@ -140,9 +147,10 @@ namespace SalesOrderFormProject
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(14, 44);
+            this.label1.Location = new System.Drawing.Point(10, 26);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(140, 28);
+            this.label1.Size = new System.Drawing.Size(100, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "KIDware Order";
             // 
@@ -165,9 +173,11 @@ namespace SalesOrderFormProject
             this.grpCustomer.Controls.Add(this.label3);
             this.grpCustomer.Controls.Add(this.cboCustomers);
             this.grpCustomer.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.grpCustomer.Location = new System.Drawing.Point(18, 203);
+            this.grpCustomer.Location = new System.Drawing.Point(13, 122);
+            this.grpCustomer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpCustomer.Name = "grpCustomer";
-            this.grpCustomer.Size = new System.Drawing.Size(726, 317);
+            this.grpCustomer.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpCustomer.Size = new System.Drawing.Size(508, 213);
             this.grpCustomer.TabIndex = 1;
             this.grpCustomer.TabStop = false;
             this.grpCustomer.Text = "Customer";
@@ -175,9 +185,10 @@ namespace SalesOrderFormProject
             // btnCancel
             // 
             this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCancel.Location = new System.Drawing.Point(597, 34);
+            this.btnCancel.Location = new System.Drawing.Point(418, 20);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(112, 36);
+            this.btnCancel.Size = new System.Drawing.Size(78, 22);
             this.btnCancel.TabIndex = 15;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -186,9 +197,10 @@ namespace SalesOrderFormProject
             // btnSave
             // 
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSave.Location = new System.Drawing.Point(472, 33);
+            this.btnSave.Location = new System.Drawing.Point(330, 20);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(112, 36);
+            this.btnSave.Size = new System.Drawing.Size(78, 22);
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -197,9 +209,10 @@ namespace SalesOrderFormProject
             // btnNew
             // 
             this.btnNew.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNew.Location = new System.Drawing.Point(349, 34);
+            this.btnNew.Location = new System.Drawing.Point(244, 20);
+            this.btnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(112, 36);
+            this.btnNew.Size = new System.Drawing.Size(78, 22);
             this.btnNew.TabIndex = 13;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
@@ -210,10 +223,11 @@ namespace SalesOrderFormProject
             this.txtZip.BackColor = System.Drawing.Color.White;
             this.txtZip.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtZip.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtZip.Location = new System.Drawing.Point(154, 276);
+            this.txtZip.Location = new System.Drawing.Point(108, 166);
+            this.txtZip.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtZip.Name = "txtZip";
             this.txtZip.ReadOnly = true;
-            this.txtZip.Size = new System.Drawing.Size(290, 34);
+            this.txtZip.Size = new System.Drawing.Size(204, 25);
             this.txtZip.TabIndex = 12;
             this.txtZip.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtZip_KeyPress);
             // 
@@ -222,10 +236,11 @@ namespace SalesOrderFormProject
             this.txtCity.BackColor = System.Drawing.Color.White;
             this.txtCity.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCity.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtCity.Location = new System.Drawing.Point(154, 201);
+            this.txtCity.Location = new System.Drawing.Point(108, 121);
+            this.txtCity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCity.Name = "txtCity";
             this.txtCity.ReadOnly = true;
-            this.txtCity.Size = new System.Drawing.Size(545, 34);
+            this.txtCity.Size = new System.Drawing.Size(383, 25);
             this.txtCity.TabIndex = 11;
             this.txtCity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCity_KeyPress);
             // 
@@ -234,10 +249,11 @@ namespace SalesOrderFormProject
             this.txtAddress.BackColor = System.Drawing.Color.White;
             this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtAddress.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtAddress.Location = new System.Drawing.Point(154, 164);
+            this.txtAddress.Location = new System.Drawing.Point(108, 98);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.ReadOnly = true;
-            this.txtAddress.Size = new System.Drawing.Size(545, 34);
+            this.txtAddress.Size = new System.Drawing.Size(383, 25);
             this.txtAddress.TabIndex = 10;
             this.txtAddress.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAddress_KeyPress);
             // 
@@ -246,10 +262,11 @@ namespace SalesOrderFormProject
             this.txtState.BackColor = System.Drawing.Color.White;
             this.txtState.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtState.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtState.Location = new System.Drawing.Point(154, 239);
+            this.txtState.Location = new System.Drawing.Point(108, 143);
+            this.txtState.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtState.Name = "txtState";
             this.txtState.ReadOnly = true;
-            this.txtState.Size = new System.Drawing.Size(290, 34);
+            this.txtState.Size = new System.Drawing.Size(204, 25);
             this.txtState.TabIndex = 9;
             this.txtState.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtState_KeyPress);
             // 
@@ -258,10 +275,11 @@ namespace SalesOrderFormProject
             this.txtLastName.BackColor = System.Drawing.Color.White;
             this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtLastName.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtLastName.Location = new System.Drawing.Point(154, 124);
+            this.txtLastName.Location = new System.Drawing.Point(108, 74);
+            this.txtLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.ReadOnly = true;
-            this.txtLastName.Size = new System.Drawing.Size(545, 34);
+            this.txtLastName.Size = new System.Drawing.Size(383, 25);
             this.txtLastName.TabIndex = 8;
             this.txtLastName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLastName_KeyPress);
             // 
@@ -269,10 +287,11 @@ namespace SalesOrderFormProject
             // 
             this.txtFirstName.BackColor = System.Drawing.Color.White;
             this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtFirstName.Location = new System.Drawing.Point(154, 86);
+            this.txtFirstName.Location = new System.Drawing.Point(108, 52);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.ReadOnly = true;
-            this.txtFirstName.Size = new System.Drawing.Size(545, 34);
+            this.txtFirstName.Size = new System.Drawing.Size(383, 25);
             this.txtFirstName.TabIndex = 7;
             this.txtFirstName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFirstName_KeyPress);
             // 
@@ -280,9 +299,10 @@ namespace SalesOrderFormProject
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(14, 279);
+            this.label8.Location = new System.Drawing.Point(10, 167);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 28);
+            this.label8.Size = new System.Drawing.Size(31, 19);
             this.label8.TabIndex = 6;
             this.label8.Text = "Zip:";
             // 
@@ -290,9 +310,10 @@ namespace SalesOrderFormProject
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(14, 242);
+            this.label7.Location = new System.Drawing.Point(10, 145);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(60, 28);
+            this.label7.Size = new System.Drawing.Size(43, 19);
             this.label7.TabIndex = 5;
             this.label7.Text = "State:";
             // 
@@ -300,9 +321,10 @@ namespace SalesOrderFormProject
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(14, 204);
+            this.label6.Location = new System.Drawing.Point(10, 122);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 28);
+            this.label6.Size = new System.Drawing.Size(36, 19);
             this.label6.TabIndex = 4;
             this.label6.Text = "City:";
             // 
@@ -310,9 +332,10 @@ namespace SalesOrderFormProject
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(14, 167);
+            this.label5.Location = new System.Drawing.Point(10, 100);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 28);
+            this.label5.Size = new System.Drawing.Size(61, 19);
             this.label5.TabIndex = 3;
             this.label5.Text = "Address:";
             // 
@@ -320,9 +343,10 @@ namespace SalesOrderFormProject
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(14, 127);
+            this.label4.Location = new System.Drawing.Point(10, 76);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 28);
+            this.label4.Size = new System.Drawing.Size(77, 19);
             this.label4.TabIndex = 2;
             this.label4.Text = "Last Name:";
             // 
@@ -330,9 +354,10 @@ namespace SalesOrderFormProject
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(14, 89);
+            this.label3.Location = new System.Drawing.Point(10, 53);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 28);
+            this.label3.Size = new System.Drawing.Size(78, 19);
             this.label3.TabIndex = 1;
             this.label3.Text = "First Name:";
             // 
@@ -343,9 +368,10 @@ namespace SalesOrderFormProject
             this.cboCustomers.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.cboCustomers.ForeColor = System.Drawing.SystemColors.WindowText;
             this.cboCustomers.FormattingEnabled = true;
-            this.cboCustomers.Location = new System.Drawing.Point(14, 34);
+            this.cboCustomers.Location = new System.Drawing.Point(10, 20);
+            this.cboCustomers.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboCustomers.Name = "cboCustomers";
-            this.cboCustomers.Size = new System.Drawing.Size(318, 36);
+            this.cboCustomers.Size = new System.Drawing.Size(224, 25);
             this.cboCustomers.Sorted = true;
             this.cboCustomers.TabIndex = 0;
             this.cboCustomers.SelectedIndexChanged += new System.EventHandler(this.cboCustomers_SelectedIndexChanged);
@@ -359,9 +385,11 @@ namespace SalesOrderFormProject
             this.grpProducts.Controls.Add(this.label9);
             this.grpProducts.Controls.Add(this.cboProducts);
             this.grpProducts.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.grpProducts.Location = new System.Drawing.Point(18, 532);
+            this.grpProducts.Location = new System.Drawing.Point(13, 339);
+            this.grpProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpProducts.Name = "grpProducts";
-            this.grpProducts.Size = new System.Drawing.Size(294, 244);
+            this.grpProducts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpProducts.Size = new System.Drawing.Size(206, 146);
             this.grpProducts.TabIndex = 2;
             this.grpProducts.TabStop = false;
             this.grpProducts.Text = "Products";
@@ -369,9 +397,10 @@ namespace SalesOrderFormProject
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnAdd.Location = new System.Drawing.Point(43, 129);
+            this.btnAdd.Location = new System.Drawing.Point(30, 77);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(178, 36);
+            this.btnAdd.Size = new System.Drawing.Size(125, 22);
             this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add to Cart";
             this.btnAdd.UseVisualStyleBackColor = true;
@@ -380,7 +409,8 @@ namespace SalesOrderFormProject
             // nudQuantity
             // 
             this.nudQuantity.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.nudQuantity.Location = new System.Drawing.Point(141, 79);
+            this.nudQuantity.Location = new System.Drawing.Point(105, 49);
+            this.nudQuantity.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nudQuantity.Maximum = new decimal(new int[] {
             99,
             0,
@@ -392,7 +422,7 @@ namespace SalesOrderFormProject
             0,
             0});
             this.nudQuantity.Name = "nudQuantity";
-            this.nudQuantity.Size = new System.Drawing.Size(138, 34);
+            this.nudQuantity.Size = new System.Drawing.Size(97, 25);
             this.nudQuantity.TabIndex = 3;
             this.nudQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudQuantity.Value = new decimal(new int[] {
@@ -406,9 +436,10 @@ namespace SalesOrderFormProject
             this.lblTotal.BackColor = System.Drawing.Color.White;
             this.lblTotal.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTotal.Location = new System.Drawing.Point(160, 185);
+            this.lblTotal.Location = new System.Drawing.Point(112, 111);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(119, 42);
+            this.lblTotal.Size = new System.Drawing.Size(83, 25);
             this.lblTotal.TabIndex = 4;
             this.lblTotal.Text = "0.00";
             this.lblTotal.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -417,9 +448,10 @@ namespace SalesOrderFormProject
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(14, 192);
+            this.label10.Location = new System.Drawing.Point(10, 115);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(54, 28);
+            this.label10.Size = new System.Drawing.Size(38, 19);
             this.label10.TabIndex = 4;
             this.label10.Text = "Total";
             // 
@@ -427,9 +459,10 @@ namespace SalesOrderFormProject
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(6, 81);
+            this.label9.Location = new System.Drawing.Point(4, 49);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 28);
+            this.label9.Size = new System.Drawing.Size(63, 19);
             this.label9.TabIndex = 3;
             this.label9.Text = "Quantity";
             // 
@@ -437,9 +470,10 @@ namespace SalesOrderFormProject
             // 
             this.cboProducts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboProducts.FormattingEnabled = true;
-            this.cboProducts.Location = new System.Drawing.Point(6, 30);
+            this.cboProducts.Location = new System.Drawing.Point(4, 18);
+            this.cboProducts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cboProducts.Name = "cboProducts";
-            this.cboProducts.Size = new System.Drawing.Size(282, 36);
+            this.cboProducts.Size = new System.Drawing.Size(199, 25);
             this.cboProducts.TabIndex = 3;
             // 
             // grpCart
@@ -447,9 +481,11 @@ namespace SalesOrderFormProject
             this.grpCart.Controls.Add(this.btnRemove);
             this.grpCart.Controls.Add(this.lstCart);
             this.grpCart.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.grpCart.Location = new System.Drawing.Point(340, 532);
+            this.grpCart.Location = new System.Drawing.Point(238, 339);
+            this.grpCart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.grpCart.Name = "grpCart";
-            this.grpCart.Size = new System.Drawing.Size(404, 243);
+            this.grpCart.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.grpCart.Size = new System.Drawing.Size(283, 146);
             this.grpCart.TabIndex = 3;
             this.grpCart.TabStop = false;
             this.grpCart.Text = "Shopping Cart";
@@ -457,9 +493,10 @@ namespace SalesOrderFormProject
             // btnRemove
             // 
             this.btnRemove.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnRemove.Location = new System.Drawing.Point(75, 198);
+            this.btnRemove.Location = new System.Drawing.Point(52, 119);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(262, 39);
+            this.btnRemove.Size = new System.Drawing.Size(183, 23);
             this.btnRemove.TabIndex = 1;
             this.btnRemove.Text = "Remove from Cart";
             this.btnRemove.UseVisualStyleBackColor = true;
@@ -469,24 +506,25 @@ namespace SalesOrderFormProject
             // 
             this.lstCart.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lstCart.FormattingEnabled = true;
-            this.lstCart.ItemHeight = 21;
-            this.lstCart.Location = new System.Drawing.Point(17, 33);
+            this.lstCart.Location = new System.Drawing.Point(12, 20);
+            this.lstCart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstCart.Name = "lstCart";
-            this.lstCart.Size = new System.Drawing.Size(370, 151);
+            this.lstCart.Size = new System.Drawing.Size(260, 82);
             this.lstCart.Sorted = true;
             this.lstCart.TabIndex = 0;
             // 
             // frmKWSales
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(778, 787);
+            this.ClientSize = new System.Drawing.Size(545, 521);
             this.ControlBox = false;
             this.Controls.Add(this.grpCart);
             this.Controls.Add(this.grpProducts);
             this.Controls.Add(this.grpCustomer);
             this.Controls.Add(this.grpOrder);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmKWSales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KWSales Order Form";
